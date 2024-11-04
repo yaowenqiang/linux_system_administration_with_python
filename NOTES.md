@@ -49,9 +49,18 @@ bookmark -l
 bookmark -d t
 bookmark -r # remove all bookmarks
 
+%dhist
+
+cd - tab
+
+dhist 7
+dhist 1 5
+
+dhist -5
 
 
-
+for i in range(10): 
+    !date > ${i}.txt
 
 
 
