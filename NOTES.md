@@ -60,8 +60,14 @@ dhist -5
 
 
 for i in range(10): 
-    !date > ${i}.txt
+    !date > {i}.txt
 
+
+!ps aux  | awk '{if ($1 == "root") print $2}'
+
+files = !ls
+import os
+files.grep(os.path.isfile)
 
 
 
