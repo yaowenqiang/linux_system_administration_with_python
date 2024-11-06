@@ -70,6 +70,66 @@ import os
 files.grep(os.path.isfile)
 
 
+## page
+
+p = !ps aux
+page p
+page -r p
+
+pdef fun_name
+pdoc fun_name
+
+import os
+
+
+pfile os
+
+pinfo os
+psearch abs*
+import os
+  
+psearch os.*
+
+os.li*?
+
+
+who
+
+who int
+
+who str
+
+who_ls
+who_ls int
+who_ls str
+
+for n in _: # last output
+    print(n)
+
+whos
+
+whos int
+whos str
+
+
+whos module
+
+
+
+Ctrl + s
+Ctrl + r
+
+hist
+
+hist -n
+
+hist r
+
+hist -g hist
+
+
+
+
 
 
 
