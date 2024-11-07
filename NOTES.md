@@ -128,8 +128,7 @@ hist r
 hist -g hist
 
 
-
-
+pycat  myscript.py
 
 
 
