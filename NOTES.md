@@ -131,6 +131,16 @@ hist -g hist
 pycat  myscript.py
 
 
+foo = 'string'
+a = _ # last out
+
+macro
+
+reset
+
+run 
+
+rep
 
 
 
