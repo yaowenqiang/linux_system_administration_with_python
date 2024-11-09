@@ -143,5 +143,11 @@ run
 rep
 
 
+```python
 
+import supprocess
+res = subprocess.Popen(['uname', '-sv'], stdout=subprocess.PIPE)
+uname = res.stdout.read().strip()
+uname.index('linux')
+```
 
