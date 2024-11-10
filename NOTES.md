@@ -147,7 +147,20 @@ rep
 
 import supprocess
 res = subprocess.Popen(['uname', '-sv'], stdout=subprocess.PIPE)
-uname = res.stdout.read().strip()
+uname = str(res.stdout.read().strip())
 uname.index('linux')
+uname.startwith('Darwin')
+uname.wndwith('Darwin')
+uname.lstrip()
+uname.rstrip()
+uname.strip()
+uname.strip('<>')
+uname.strip('<').strip('>') # better way
+'<><><>hello world <><><>'.strip('<>')
+'<><><>hello world <><><>'.strip('><')
+
+
+
+
 ```
 
