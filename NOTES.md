@@ -164,3 +164,13 @@ uname.strip('<').strip('>') # better way
 
 ```
 
+```python
+
+'ABC'.lower()
+'abc'.upper()
+'abc'.split()
+'abcXXXdefXXXghi'.split('XXX')
+','.join([str(x) for x in list(range(10))])
+'abc'.replace('abc','def')
+
+```
