@@ -174,3 +174,22 @@ uname.strip('<').strip('>') # better way
 'abc'.replace('abc','def')
 
 ```
+
+```python
+import re
+re_string = '{{(.*?)}}'
+some_string = 'hello, {{world}}'
+for match in re.findall(re_string, some_string):
+    print(match)
+```
+
+
+```python
+import re
+re_string = re.compile'{{(.*?)}}'
+some_string = 'hello, {{world}}'
+for match in re.findall(some_string):
+    print(match)
+
+
+```
